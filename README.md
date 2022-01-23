@@ -11,6 +11,18 @@ export DB_NAME=<YOUR MONGO ATLAS DB NAME>
 export COLLECTION_NAME=<YOUR COLLECTION NAME>
 ```
 
-
+# Examples available:
+```
+> yarn findOne
+> yarn find
+> yarn insertOne
+> yarn insertMany
+> yarn updateOne
+> yarn updateMany
+> yarn replaceOne
+> yarn deleteOne
+> yarn deleteMany
+> yarn aggregate
+```
 Note that the structure and IDs in the examples will likely not work for your db without modification, but hopefully will give you a starting point for using this SDK.
 
