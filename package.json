@@ -1,0 +1,25 @@
+{
+  "name": "mongodb-atlas-data-api-sdk-examples",
+  "version": "1.0.0",
+  "description": "Examples of using mongodb-atlas-data-api-sdk",
+  "main": "index.js",
+  "license": "MIT",
+  "type":"module",
+  "scripts": {
+    "findOne": "npx babel-node src/findOne.js",
+    "find": "npx babel-node src/find.js",
+    "insertOne": "npx babel-node src/insertOne.js",
+    "insertMany": "npx babel-node src/insertMany.js",
+    "updateOne": "npx babel-node src/updateOne.js",
+    "updateMany": "npx babel-node src/updateMany.js",
+    "replaceOne": "npx babel-node src/replaceOne.js",
+    "deleteOne": "npx babel-node src/deleteOne.js",
+    "deleteMany": "npx babel-node src/deleteMany.js",
+    "aggregate": "npx babel-node src/aggregate.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  }
+}

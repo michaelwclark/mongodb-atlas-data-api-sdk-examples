@@ -1,4 +1,7 @@
-To run the examples update the environment variables accordingly.
+# mongodb-atlas-data-api-sdk-examples
+Examples of using mongodb-atlas-data-api-sdk
+
+To run the examples update the environment variables accordingly. You can hardcode these too just update the src/env.js file.
 
 ```
 export API_KEY=<YOUR MONGO ATLAS DB API KEY>
