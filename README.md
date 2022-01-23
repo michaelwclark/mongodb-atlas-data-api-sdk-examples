@@ -3,6 +3,7 @@ Examples of using mongodb-atlas-data-api-sdk
 
 To run the examples update the environment variables accordingly. You can hardcode these too just update the src/env.js file.
 
+To get these values please see [here](https://docs.atlas.mongodb.com/api/data-api/).
 ```
 export API_KEY=<YOUR MONGO ATLAS DB API KEY>
 export API_URL=<YOUR MONGO ATLAS DB API URL>
