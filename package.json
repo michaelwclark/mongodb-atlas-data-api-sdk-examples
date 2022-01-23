@@ -5,6 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
+  "repository": "git@github.com:michaelwclark/mongodb-atlas-data-api-sdk-examples.git",
   "scripts": {
     "findOne": "npx babel-node src/findOne.js",
     "find": "npx babel-node src/find.js",
